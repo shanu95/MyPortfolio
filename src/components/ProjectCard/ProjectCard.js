@@ -47,9 +47,9 @@ export default function ProjectCard({ repo, theme }) {
             <div className="repo-details Leftitem">
               <ProjectLanguages logos={repo.languages} />
             </div>
-            <div className="repo-details Rightitem">
+            {/* <div className="repo-details Rightitem">
               <ProjectLinks logos={repo.links} />
-            </div>
+            </div> */}
           </div>
         </div>
       </Fade>
